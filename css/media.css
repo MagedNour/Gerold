@@ -1,0 +1,285 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Media Query */
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .home-container .left h1 {
+        font-size: 60px;
+    }
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    /* Navigation Bar */
+
+    nav .nav-container {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 100%;
+    }
+
+    nav .logo-box {
+        margin-right: 25px;
+    }
+
+    nav .nav-items li {
+        margin: 0px 10px;
+    }
+
+    nav .logo-box img {
+        margin-right: 15px;
+    }
+
+
+    /* Home Section */
+
+    .home-container .left h1 {
+        font-size: 50px;
+    }
+
+    /* section Head */
+
+    .section-title p {
+        max-width: 80%;
+    }
+
+    /* Skills Section */
+
+   
+
+    .skills .item-holder{
+        width: calc(100%/5);
+    }
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+
+    .main-container {
+        width: 80%;
+    }
+
+    /* Navigation Bar */
+
+    nav .nav-items ul {
+        display: none;
+    }
+
+    nav .nav-container {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 80%;
+    }
+
+    nav .nav-items .menu i {
+        display: block;
+
+    }
+
+
+    /* Home Section */
+
+    #home {
+        height: auto;
+    }
+
+    .home-container {
+        width: 80%;
+        margin: 50px;
+    }
+
+    .home-container .button-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+    }
+
+    .home-container .button-box ul {
+        margin: 20px 0px;
+    }
+
+    .home-container .left h2 {
+        font-size: 25px;
+    }
+
+    .home-container .left h1 {
+        font-size: 38px;
+    }
+
+    .home-container .left p {
+        max-width: 95%;
+    }
+
+
+    /* FunFacts Section */
+
+    .fun .item-container {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+
+     /* Skills Section */
+
+   
+
+     .skills .item-holder{
+        width: calc(100%/3);
+    }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* Navigation Bar */
+    nav .logo-box .logo-mail {
+        display: none;
+    }
+
+    .nav-btn button {
+        padding: 13px 20px;
+    }
+
+    /* Home Section */
+
+    .home-container .left h2 {
+        font-size: 22px;
+    }
+
+    .home-container .left h1 {
+        font-size: 35px;
+    }
+
+
+    /* Home Section */
+
+    .home-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .home-container .left {
+        width: 100%;
+    }
+
+    .home-container .right {
+        width: 100%;
+    }
+
+    .home-container .left .hero-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 15px 0px;
+
+    }
+
+    .home-container .right {
+        display: none;
+    }
+
+
+    /* FunFacts Section */
+
+    .fun .item-container .item h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .fun .item-container .item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    /* Works Section */
+
+    .works .filter button {
+        padding: 10px 6px;
+    }
+
+    .works .item-container{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .works .works-container{
+        width: 95%;
+        background: #0f0715;
+
+    }
+
+
+    .works .item{
+        padding: 36px 15px 0px 15px;
+        position: relative;
+    
+    }
+
+
+       /* Skills Section */
+
+       .skills .item-holder{
+        width: calc(100%/2);
+    }
+
+    /* Contact Section  */
+
+    .contact .left{
+        width: 100%;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .contact .right{
+        width: 100%;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+    }
+
+}
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .main-container{
+        width: 95%;
+    }
+
+      /* Skills Section */
+
+      .skills .item-holder{
+        width: 100%;
+    }
+
+    .contact .info-holder input{
+        width: 100%;
+    }
+}
